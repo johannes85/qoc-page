@@ -1,4 +1,5 @@
-baseURL: "http://example.org/"
 languageCode: "de-DE"
 title: "Quests of Chaos - Pen & paper RPG"
 theme: "qoc"
+baseURL: "https://johannes85.github.io/qoc-page/"
+canonifyURLs: true
