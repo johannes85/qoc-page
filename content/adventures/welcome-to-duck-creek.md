@@ -6,7 +6,7 @@ format: "Multi-Shot"
 duration: "8-10 Stunden"
 author: "Johannes Zinnau"
 author_url: "mailto: mail.johni@gmx.de"
-draft: true
+draft: false
 free: true
 link: "https://download.link"
 donate: "https://ko-fi.com/johanneszinnau"
