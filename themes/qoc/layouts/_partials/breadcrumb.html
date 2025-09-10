@@ -1,0 +1,14 @@
+<nav aria-label="breadcrumb" class="mb-4">
+    <ol class="breadcrumb">
+        {{- define "partials/inline/breadcrumb" -}}
+        {{- with .Parent -}}
+        {{ partial "inline/breadcrumb" . }}
+        {{- if .Title }}
+        <li class="breadcrumb-item"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{- end -}}
+        {{- end -}}
+        {{- end -}}
+        {{ partial "inline/breadcrumb" . }}
+        <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+    </ol>
+</nav>

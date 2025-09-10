@@ -1,0 +1,4 @@
+baseURL: "http://example.org/"
+languageCode: "de-DE"
+title: "Quests of Chaos - Pen & paper RPG"
+theme: "qoc"

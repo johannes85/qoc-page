@@ -1,0 +1,5 @@
+themes/qoc/static/generated/*
+!themes/qoc/static/generated/.keep
+/node_modules
+/public
+/resources

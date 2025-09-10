@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+
+<p>
+    <b>Genre:</b> {{ .Params.genre }}<br>
+    <b>Format:</b> {{ .Params.format }} ({{ .Params.duration }})
+</p>
+
+{{ .Content }}
+
+<div class="mt-5">
+    {{ if eq .Params.free true }}
+        <a href="{{ .Params.link }}" class="btn btn-primary">Herunterladen</a>
+    {{ else }}
+        <a href="{{ .Params.link }}" class="btn btn-primary">Kaufen</a>
+    {{ end }}
+    {{ with .Params.donate }}
+        <a href="{{ . }}" class="btn btn-secondary">Unterstütze den Autor</a>
+    {{ end }}
+</div>
+{{ end }}

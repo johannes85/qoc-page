@@ -1,0 +1,21 @@
+{
+  "name": "qoc",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "watch-css": "sass --watch --load-path=node_modules src/scss/main.scss themes/qoc/static/generated/main.css",
+    "hugo-dev": "hugo server --buildDrafts",
+    "watch": "concurrently 'npm run watch-css' 'npm run hugo-dev'"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "sass": "^1.79.6 <1.80"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  }
+}
