@@ -8,6 +8,7 @@
   "main": "index.js",
   "scripts": {
     "watch-css": "sass --watch --load-path=node_modules src/scss/main.scss themes/qoc/static/generated/main.css",
+    "build-css": "sass --load-path=node_modules src/scss/main.scss themes/qoc/static/generated/main.css",
     "hugo-dev": "hugo server --buildDrafts",
     "watch": "concurrently 'npm run watch-css' 'npm run hugo-dev'"
   },
