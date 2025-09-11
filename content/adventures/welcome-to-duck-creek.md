@@ -1,5 +1,6 @@
 ---
 title: "Welcome to Duck Creek"
+image: "duck-creek.jpg"
 description: "Ein herbstliches Mystery-Abenteuer in den Berkshire Mountains."
 genre: "Mystery, Horror"
 format: "Multi-Shot"

@@ -7,9 +7,8 @@ draft: false
 
 ## Angaben gemäß § 5 TMG
 
-Max Mustermann
-Musterstraße 1
-12345 Musterstadt
-Deutschland
+Max Mustermann  
+Musterstraße 1  
+12345 Musterstadt  
+Deutschland  
 Telefon: +49 123 456789
-

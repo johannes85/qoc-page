@@ -1,13 +1,20 @@
-<div class="card col-12 col-md-6 col-lg-4">
+<article class="col-12 col-md-6 col-lg-4 pb-4">
+  <div class="card">
+    {{- with .Params.image }}
+      {{- $image := resources.Get "images/adventures/duck-creek.jpg" }}
+      {{- $image := $image.Fill "286x180" }}
+      <img class="card-img-top" src="{{ $image.RelPermalink }}" alt="Card image cap">
+    {{- end }}
     <div class="card-body">
-        <h3 class="card-title">{{ .Title }}</h3>
-        <p class="card-text">
-            {{ .Params.description }}
-        </p>
-        <p class="card-text">
-            <b>Genre:</b> {{ .Params.genre }}<br>
-            <b>Format:</b> {{ .Params.format }} ({{ .Params.duration }})<br>
-        </p>
-        <a href="{{.Permalink}}" class="btn btn-primary">Weitere Informationen</a>
+      <h3 class="card-title">{{ .Title }}</h3>
+      <p class="card-text">
+        {{ .Params.description }}
+      </p>
+      <p class="card-text">
+        <b>Genre:</b> {{ .Params.genre }}<br>
+        <b>Format:</b> {{ .Params.format }} ({{ .Params.duration }})<br>
+      </p>
+      <a href="{{.Permalink}}" class="btn btn-sm btn-primary">Weitere Informationen</a>
     </div>
-</div>
+  </div>
+</article>

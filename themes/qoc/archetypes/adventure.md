@@ -1,5 +1,6 @@
-+++
+---
 title: ""
+image: ""
 description: ""
 genre: "Mystery, Horror"
 format: "Multi-Shot"
@@ -10,4 +11,4 @@ draft: true
 free: true
 link: "https://download-or-buy.link"
 donate: "https://donate.link"
-+++
+---
