@@ -12,5 +12,6 @@ Zum jetzigen Zeitpunkt gibt es noch keine gedruckten Regelbücher für "Quests o
 
 {{< info >}}
 Schau doch einmal bei unseren [Abenteuern](/adventures) vorbei.
-Diese sind meistens auch mit anderen Regelwerken spielbar. Vielleicht findest du ja etwas, das dich interessiert.
+Diese sind meistens auch mit anderen Regelwerken spielbar. Vielleicht findest du ja etwas, das dich interessiert.  
+Einen ersten Blick auf die Charakterbögen und ein abgespecktes Schnellstarter Regelwerk findest du in unserem [Downloadbereich](/downloads).
 {{< /info >}}
