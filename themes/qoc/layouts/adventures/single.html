@@ -15,25 +15,26 @@
 <h1>{{ .Title }}</h1>
 
 <p>
-    <b>Genre:</b> {{ .Params.genre }}<br>
-    <b>Format:</b> {{ .Params.format }} ({{ .Params.duration }})
+  <b>Genre:</b> {{ .Params.genre }}<br>
+  <b>Format:</b> {{ .Params.format }} ({{ .Params.duration }})<br>
+  <b>Autor:</b> {{ .Params.author }}
 </p>
 
 {{ .Content }}
 
 <div class="mt-3 d-flex gap-2">
-    {{ if eq .Params.free true }}
-        <a href="{{ .Params.link }}" class="btn btn-primary">Herunterladen</a>
-    {{ else }}
-        <a href="{{ .Params.link }}" class="btn btn-primary">Kaufen</a>
-    {{ end }}
-    {{ with .Params.donate }}
-        <a href="{{ . }}" class="btn btn-img btn-secondary">
-          <span>
-            <img src="/images/kofi_symbol.svg" alt="Ko-fi logo" class="button-image">
-            Unterstütze den Autor
-          </span>
-        </a>
-    {{ end }}
+  {{ if eq .Params.free true }}
+  <a href="{{ .Params.link }}" class="btn btn-primary">Herunterladen</a>
+  {{ else }}
+  <a href="{{ .Params.link }}" class="btn btn-primary">Kaufen</a>
+  {{ end }}
+  {{ with .Params.donate }}
+  <a href="{{ . }}" class="btn btn-img btn-secondary">
+    <span>
+      <img src="/images/kofi_symbol.svg" alt="Ko-fi logo" class="button-image">
+      Unterstütze den Autor
+    </span>
+  </a>
+  {{ end }}
 </div>
 {{ end }}
