@@ -21,7 +21,7 @@ jobs:
       DART_SASS_VERSION: 1.92.1
       GO_VERSION: 1.25.1
       HUGO_VERSION: 0.150.0
-      NODE_VERSION: 22.18.0
+      NODE_VERSION: 24.8.0
       TZ: Europe/Oslo
     steps:
       - name: Checkout
@@ -79,7 +79,6 @@ jobs:
             hugo-
       - name: Build assets
         run: |
-          npm ci || true
           npm run build-css
       - name: Build the site
         run: |

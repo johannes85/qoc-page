@@ -8,4 +8,15 @@ weight: 10
 
 # Über Quests of Chaos
 
-lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## Cthula Lumpor
+
+Cthula Lumpor ist eine Insel, auf der sich das Unmögliche zur Möglichkeit auftut, um dir und deinen 
+Freunden eine unvergessliche Zeit zu schenken.  
+Begib dich auf eine Reise durch Zeit, Raum und Epochen, voller Gefahren und unvorstellbaren Wahnsinns.  
+Erlebe, wie es seinen Lauf nahm, durcheinander geriet und letztendlich doch irgendwie zueinander fand.
+
+## Das Regelwerk
+
+„Quests of Chaos” ist ein Regelwerk für Pen-and-Paper-Rollenspiele, das zwar universell einsetzbar ist, für das es aber 
+eine eigens erschaffene Welt mit zahlreichen Abenteuern gibt, auf die die Regeln perfekt abgestimmt wurden.
+

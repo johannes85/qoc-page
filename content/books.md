@@ -8,4 +8,9 @@ weight: 20
 
 # Regelbücher
 
-lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Zum jetzigen Zeitpunkt gibt es noch keine gedruckten Regelbücher für "Quests of Chaos" zu kaufen.
+
+{{< info >}}
+Schau doch einmal bei unseren [Abenteuern](/adventures) vorbei.
+Diese sind meistens auch mit anderen Regelwerken spielbar. Vielleicht findest du ja etwas, das dich interessiert.
+{{< /info >}}

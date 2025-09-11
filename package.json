@@ -10,7 +10,7 @@
     "watch-css": "sass --watch --load-path=node_modules src/scss/main.scss themes/qoc/static/generated/main.css",
     "compile-css": "sass --load-path=node_modules --style=compressed src/scss/main.scss themes/qoc/static/generated/main.css",
     "prefix-css": "postcss --replace themes/qoc/static/generated/main.css --use autoprefixer",
-    "build-css": "npm run compile-css",
+    "build-css": "npm run compile-css && npm run prefix-css",
     "hugo-dev": "hugo server --buildDrafts --disableFastRender",
     "watch": "concurrently 'npm run watch-css' 'npm run hugo-dev'"
   },

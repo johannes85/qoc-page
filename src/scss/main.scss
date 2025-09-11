@@ -181,3 +181,13 @@ footer {
   border-color: darken($primary, 20%) !important;
 }
 
+.alert {
+  a {
+    color: var(--bs-alert-link-color);
+    font-weight: 700;
+
+    &:hover {
+      color: var(--bs-link-hover-color-rgb);
+    }
+  }
+}
