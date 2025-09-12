@@ -1,5 +1,5 @@
 languageCode: "de-DE"
 title: "Quests of Chaos - Pen & paper RPG"
 theme: "qoc"
-baseURL: "https://johannes85.github.io/qoc-page/"
+baseURL: "https://quests-of-chaos.com/"
 canonifyURLs: true
