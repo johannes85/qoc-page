@@ -1,6 +1,6 @@
 ---
 title: "Schnellstarter Regelwerk"
-link: "#"
+link: ""
 linktext: "Schnellstarter version 10.09.2025 (PDF)"
 build:
   render: "never"

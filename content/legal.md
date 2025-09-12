@@ -5,10 +5,10 @@ draft: false
 ---
 # Impressum
 
-## Angaben gemäß § 5 TMG
-
 Max Mustermann  
 Musterstraße 1  
 12345 Musterstadt  
-Deutschland  
+Deutschland
+
+E-Mail: adventure@quests-of-chaos.com  
 Telefon: +49 123 456789
