@@ -70,7 +70,7 @@ $theme-colors: (
 @import "bootstrap/scss/utilities/api";
 
 html {
-  height: 100%;
+  min-height: 100%;
 }
 
 body {
