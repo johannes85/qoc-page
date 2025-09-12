@@ -69,8 +69,15 @@ $theme-colors: (
 // Utilities
 @import "bootstrap/scss/utilities/api";
 
+html {
+  height: 100%;
+}
+
 body {
   padding-bottom: 4rem;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {

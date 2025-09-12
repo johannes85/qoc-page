@@ -6,6 +6,8 @@ menu: main
 weight: 10
 ---
 
+{{< image src="images/zombies_1.png" alt="Postapokalyptische Stadt-Szene mit Zombies" >}}
+
 # Über Quests of Chaos
 
 ## Cthula Lumpor

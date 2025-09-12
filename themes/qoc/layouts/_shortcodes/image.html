@@ -1,0 +1,11 @@
+{{- $src := .Get "src" }}
+{{- $alt := .Get "alt" }}
+{{- $width := .Get "width" }}
+{{- $image := resources.Get $src }}
+{{- $image := $image.Resize "480x" }}
+<img
+  src="{{ $image.RelPermalink }}"
+  class="pb-3 pb-lg-0 ps-lg-3 float-lg-end img-fluid"
+  width="{{ $image.Width }}"
+  alt="{{ $alt }}"
+>
