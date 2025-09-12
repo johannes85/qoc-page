@@ -1,16 +1,14 @@
 {{ define "main" }}
-
-{{ with .Params.image }}
-{{ $image := resources.Get "images/adventures/duck-creek.jpg" }}
-{{ $image := $image.Resize "480x" }}
+{{- with .Params.image }}
+{{- $image := resources.Get "images/adventures/duck-creek.jpg" }}
+{{- $image := $image.Resize "480x" }}
 <img
   src="{{ $image.RelPermalink }}"
   alt="Card image cap"
   width="{{ $image.Width }}"
-  class="pb-3 pb-lg-0 ps-lg-3 float-lg-end"
+  class="pb-3 pb-lg-0 ps-lg-3 float-lg-end img-fluid"
 >
-{{ end }}
-
+{{- end }}
 
 <h1>{{ .Title }}</h1>
 
@@ -22,7 +20,7 @@
 
 {{ .Content }}
 
-<div class="mt-3 d-flex gap-2">
+<div class="mt-3 d-flex gap-2 align-items-start">
   {{ if eq .Params.free true }}
   <a href="{{ .Params.link }}" class="btn btn-primary">Herunterladen</a>
   {{ else }}
