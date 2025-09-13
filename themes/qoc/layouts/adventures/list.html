@@ -2,7 +2,7 @@
 <h1>{{ .Title }}</h1>
 
 <h2>Unsere kostenlosen Abenteuer zum herunterladen</h2>
-<div class="row mb-5">
+<div class="row mb-4">
 {{- range where .Data.Pages ".Params.free" true }}
    {{ partial "adventure-card.html" . }}
 {{ end }}

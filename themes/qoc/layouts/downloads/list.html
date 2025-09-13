@@ -2,7 +2,7 @@
 <h1>{{ .Title }}</h1>
 
 <h2>Downloads</h2>
-<div class="row mb-5">
+<div class="row mb-4">
 {{- range .Data.Pages }}
    {{ partial "download-card.html" . }}
 {{ end }}

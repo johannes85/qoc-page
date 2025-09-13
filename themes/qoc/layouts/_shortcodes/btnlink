@@ -1,1 +1,0 @@
-<a href="{{ $.Get "href" }}" class="btn btn-{{ $.Get "style" }} mb-3">{{ $.Get "label" }}</a>
