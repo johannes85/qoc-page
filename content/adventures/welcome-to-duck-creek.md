@@ -9,7 +9,7 @@ author: "Johannes Zinnau"
 author_url: "mailto: mail.johni@gmx.de"
 draft: false
 free: true
-link: ""
+link: "/downloads/welcome_to_duck_creek.zip"
 donate: "https://ko-fi.com/johanneszinnau"
 ---
 Es ist ein schöner Herbsttag im Jahre 1998. Ihr befindet euch im Familien-Van der Familie Phillips, dessen Sohn Ryker euch vom Flughafen in Albany, New York abgeholt hat.
