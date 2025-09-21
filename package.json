@@ -8,8 +8,8 @@
   "scripts": {
     "watch-css": "sass --watch --load-path=node_modules src/scss/main.scss themes/qoc/static/generated/main.css",
     "watch-js": "webpack --watch --mode development",
-    "compile-css": "sass --load-path=node_modules --style=compressed src/scss/main.scss themes/qoc/static/generated/main.css",
-    "prefix-css": "postcss --replace themes/qoc/static/generated/main.css --use autoprefixer",
+    "compile-css": "sass --no-source-map --load-path=node_modules --style=compressed src/scss/main.scss themes/qoc/static/generated/main.css",
+    "prefix-css": "postcss --replace themes/qoc/static/generated/main.css --no-map --use autoprefixer",
     "build-css": "npm run compile-css && npm run prefix-css",
     "build-js": "webpack --mode production",
     "hugo-dev": "hugo server --buildDrafts --disableFastRender",
