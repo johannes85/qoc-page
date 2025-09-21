@@ -7,6 +7,8 @@ format: "Multi-Shot"
 duration: "8-10 Stunden"
 author: "Johannes Zinnau"
 author_url: "mailto: mail.johni@gmx.de"
+license: "CC BY-NC-ND 4.0"
+license_url: "https://creativecommons.org/licenses/by-nc-nd/4.0/"
 draft: false
 free: true
 link: "/downloads/welcome_to_duck_creek.zip"

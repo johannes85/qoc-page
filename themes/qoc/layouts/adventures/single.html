@@ -1,4 +1,4 @@
-{{ define "main" }}
+{{- define "main" }}
 {{- with .Params.image }}
 {{- $image := resources.Get . }}
 {{- $image := $image.Resize "480x" }}
@@ -15,7 +15,10 @@
 <p>
   <b>Genre:</b> {{ .Params.genre }}<br>
   <b>Format:</b> {{ .Params.format }} ({{ .Params.duration }})<br>
-  <b>Autor:</b> {{ .Params.author }}
+  <b>Autor:</b> {{ .Params.author }}<br>
+  {{- if .Params.link }}
+  <b>Lizenz:</b> <a href="{{ .Params.license_url }}">{{ .Params.license }}</a>
+  {{- end }}
 </p>
 
 {{ .Content }}
@@ -23,23 +26,23 @@
 <div class="mt-3 d-flex gap-2 align-items-start">
 
 
-  {{ if .Params.link }}
-    {{ if eq .Params.free true }}
+  {{- if .Params.link }}
+    {{- if eq .Params.free true }}
     <a href="{{ .Params.link }}" class="btn btn-primary">Herunterladen</a>
-    {{ else }}
+    {{- else }}
     <a href="{{ .Params.link }}" class="btn btn-primary">Kaufen</a>
-    {{ end }}
-  {{ else }}
+    {{- end }}
+  {{- else }}
     <button disabled href="{{ .Params.link }}" class="btn btn-primary">Download bald verfügbar</button>
-  {{ end }}
+  {{- end }}
 
-  {{ with .Params.donate }}
+  {{- with .Params.donate }}
   <a href="{{ . }}" class="btn btn-img btn-secondary">
     <span>
       <img src="/images/kofi_symbol.svg" alt="Ko-fi logo" class="button-image">
       Unterstütze den Autor
     </span>
   </a>
-  {{ end }}
+  {{- end }}
 </div>
-{{ end }}
+{{- end }}
