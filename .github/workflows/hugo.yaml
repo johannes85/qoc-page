@@ -79,6 +79,7 @@ jobs:
             hugo-
       - name: Build assets
         run: |
+          npm run build-js
           npm run build-css
       - name: Build the site
         run: |

@@ -20,6 +20,14 @@
   <meta name="apple-mobile-web-app-title" content="QoC"/>
   <link rel="manifest" href="/favicon/site.webmanifest"/>
 
+  <script type="text/plain" data-category="analytics" data-service="Google Analytics" async src="https://www.googletagmanager.com/gtag/js?id=G-D2BW2DRJR1"></script>
+  <script type="text/plain" data-category="analytics" data-service="Google Analytics">
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-D2BW2DRJR1');
+  </script>
 </head>
 <body style="background-image: url('/images/bg_1.jpg')">
 
@@ -76,8 +84,11 @@
       </a>
     </div>
     <!--<a href="/legal">Impressum</a>-->
+    <a href="javascript:;" data-cc="show-preferencesModal">Cookie Einstellungen anpassen</a>
   </div>
 </footer>
+
+<script src="/generated/main.js"></script>
 
 </body>
 </html>

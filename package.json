@@ -4,24 +4,33 @@
   "description": "",
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "watch-css": "sass --watch --load-path=node_modules src/scss/main.scss themes/qoc/static/generated/main.css",
+    "watch-js": "webpack --watch --mode development",
     "compile-css": "sass --load-path=node_modules --style=compressed src/scss/main.scss themes/qoc/static/generated/main.css",
     "prefix-css": "postcss --replace themes/qoc/static/generated/main.css --use autoprefixer",
     "build-css": "npm run compile-css && npm run prefix-css",
+    "build-js": "webpack --mode production",
     "hugo-dev": "hugo server --buildDrafts --disableFastRender",
-    "watch": "concurrently 'npm run watch-css' 'npm run hugo-dev'"
+    "watch": "concurrently 'npm run watch-css' 'npm run hugo-dev' 'npm run watch-js'"
   },
   "devDependencies": {
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
     "autoprefixer": "^10.4.21",
+    "babel-loader": "^10.0.0",
     "concurrently": "^9.2.1",
+    "css-loader": "^7.1.2",
     "postcss": "^8.5.6",
     "postcss-cli": "^11.0.1",
-    "sass": "^1.79.6 <1.80"
+    "sass": "^1.79.6 <1.80",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1"
   },
   "dependencies": {
-    "bootstrap": "^5.3.8"
+    "bootstrap": "^5.3.8",
+    "vanilla-cookieconsent": "^3.1.0"
   }
 }
