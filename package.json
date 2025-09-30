@@ -6,14 +6,16 @@
   "author": "",
   "main": "index.js",
   "scripts": {
-    "watch-css": "sass --watch --load-path=node_modules src/scss/main.scss themes/qoc/static/generated/main.css",
+    "watch-css": "sass --watch --load-path=node_modules src/scss/main.scss themes/qoc/assets/generated/main.css",
     "watch-js": "webpack --watch --mode development",
-    "compile-css": "sass --no-source-map --load-path=node_modules --style=compressed src/scss/main.scss themes/qoc/static/generated/main.css",
-    "prefix-css": "postcss --replace themes/qoc/static/generated/main.css --no-map --use autoprefixer",
+    "compile-css": "sass --no-source-map --load-path=node_modules --style=compressed src/scss/main.scss themes/qoc/assets/generated/main.css",
+    "prefix-css": "postcss --replace themes/qoc/assets/generated/main.css --no-map --use autoprefixer",
     "build-css": "npm run compile-css && npm run prefix-css",
+    "build-css-dev": "sass --load-path=node_modules src/scss/main.scss themes/qoc/assets/generated/main.css",
     "build-js": "webpack --mode production",
+    "build-js-dev": "webpack --mode development",
     "hugo-dev": "hugo server --buildDrafts --disableFastRender",
-    "watch": "concurrently 'npm run watch-css' 'npm run hugo-dev' 'npm run watch-js'"
+    "watch": "npm run build-css-dev && npm run build-js-dev && concurrently 'npm run watch-css' 'npm run hugo-dev' 'npm run watch-js'"
   },
   "devDependencies": {
     "@babel/core": "^7.28.4",

@@ -4,7 +4,7 @@ module.exports = {
   entry: './src/js/main.js',
   output: {
     filename: 'main.js',
-    path: path.resolve(__dirname, 'themes/qoc/static/generated/'),
+    path: path.resolve(__dirname, 'themes/qoc/assets/generated/'),
   },
   module: {
     rules: [

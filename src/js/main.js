@@ -1,5 +1,6 @@
 
 import * as CookieConsent from "vanilla-cookieconsent";
+
 /**
  * All config. options available here:
  * https://cookieconsent.orestbida.com/reference/configuration-reference.html

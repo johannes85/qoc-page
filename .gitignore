@@ -1,5 +1,5 @@
-themes/qoc/static/generated/*
-!themes/qoc/static/generated/.keep
+themes/qoc/assets/generated/*
+!themes/qoc/assets/generated/.keep
 /node_modules
 /public
 /resources
