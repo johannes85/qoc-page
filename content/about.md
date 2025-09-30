@@ -42,7 +42,7 @@ Wir befinden uns in der Neuzeit.
 Das heißt, das der technologische Fortschritt und alles was es sonst noch in Cthula Lumpor gibt, 
 diesem Stand der Zeit entspricht. 
 Die Mondlandung, der Mauerfall und das düstere Mittelalter sind den Bewohnern Cthula Lumpors genauso bekannt wie dir.
-Wir gehen also davon aus, das wir uns auf der Erde des 21. Jahrhunderts befinden, #
+Wir gehen also davon aus, das wir uns auf der Erde des 21. Jahrhunderts befinden, 
 auf einer Insel die ausschließlich zum Zwecke der Abenteuer erdacht wurde. 
 
 Dennoch ist in Quests of Chaos vieles Möglich. Zeitreisen, Science Fiction, Übernatürliches, 
