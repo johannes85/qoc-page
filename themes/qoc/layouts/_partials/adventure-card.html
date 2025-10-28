@@ -13,7 +13,7 @@
       <p class="card-text">
         <b>Genre:</b> {{ .Params.genre }}<br>
         <b>Format:</b> {{ .Params.format }} ({{ .Params.duration }})<br>
-        <b>Autor:</b> {{ .Params.author }}
+        <b>{{ if gt (len .Params.authors) 1 }}Autoren{{ else }}Autor{{ end }}:</b> {{ range $k, $v := .Params.authors }}{{ if $k }}, {{ end }}{{ $v.name }}{{ end }}
       </p>
       <a href="{{.Permalink}}" class="btn btn-sm btn-primary">Weitere Informationen</a>
     </div>

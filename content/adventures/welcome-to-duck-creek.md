@@ -5,14 +5,15 @@ description: "Ein herbstliches Mystery-Abenteuer in den Berkshire Mountains."
 genre: "Mystery, Horror"
 format: "Multi-Shot"
 duration: "8-10 Stunden"
-author: "Johannes Zinnau"
-author_url: "mailto: mail.johni@gmx.de"
+authors:
+  - name: "Johannes Zinnau"
+    url: "mailto: mail.johni@gmx.de"
+    donate: "https://ko-fi.com/johanneszinnau"
 license: "CC BY-NC-ND 4.0"
 license_url: "https://creativecommons.org/licenses/by-nc-nd/4.0/"
-draft: false
+draft: true
 free: true
 link: "/downloads/welcome_to_duck_creek.zip"
-donate: "https://ko-fi.com/johanneszinnau"
 ---
 Es ist ein schöner Herbsttag im Jahre 1998. Ihr befindet euch im Familien-Van der Familie Phillips, dessen Sohn Ryker euch vom Flughafen in Albany, New York abgeholt hat.
 

@@ -15,7 +15,7 @@
 <p>
   <b>Genre:</b> {{ .Params.genre }}<br>
   <b>Format:</b> {{ .Params.format }} ({{ .Params.duration }})<br>
-  <b>Autor:</b> {{ .Params.author }}<br>
+  <b>{{ if gt (len .Params.authors) 1 }}Autoren{{ else }}Autor{{ end }}:</b> {{ range $k, $v := .Params.authors }}{{ if $k }}, {{ end }}{{ $v.name }}{{ end }}<br>
   {{- if .Params.link }}
   <b>Lizenz:</b> <a href="{{ .Params.license_url }}">{{ .Params.license }}</a>
   {{- end }}
@@ -36,13 +36,15 @@
     <button disabled href="{{ .Params.link }}" class="btn btn-primary">Download bald verfügbar</button>
   {{- end }}
 
-  {{- with .Params.donate }}
-  <a href="{{ . }}" class="btn btn-img btn-secondary">
+  {{- range .Params.authors }}
+  {{- if .donate }}
+  <a href="{{ .donate }}" class="btn btn-img btn-secondary">
     <span>
       <img src="/images/kofi_symbol.svg" alt="Ko-fi logo" class="button-image">
-      Unterstütze den Autor
+      Unterstütze {{ .name }}
     </span>
   </a>
+  {{- end }}
   {{- end }}
 </div>
 {{- end }}
