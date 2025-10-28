@@ -11,9 +11,9 @@ authors:
     donate: "https://ko-fi.com/johanneszinnau"
 license: "CC BY-NC-ND 4.0"
 license_url: "https://creativecommons.org/licenses/by-nc-nd/4.0/"
-draft: true
+draft: false
 free: true
-link: "/downloads/welcome_to_duck_creek.zip"
+link: null
 ---
 Es ist ein schöner Herbsttag im Jahre 1998. Ihr befindet euch im Familien-Van der Familie Phillips, dessen Sohn Ryker euch vom Flughafen in Albany, New York abgeholt hat.
 
