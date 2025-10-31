@@ -10,6 +10,7 @@ duration: "6-10 Stunden"
 authors:
   - name: "Patrick Morgenthaler"
     url: "mailto:pmorgenthaler@web.de"
+    donate: "https://paypal.me/PatMor549"
 license: "CC BY-NC-ND 4.0"
 license_url: "https://creativecommons.org/licenses/by-nc-nd/4.0/"
 draft: false
