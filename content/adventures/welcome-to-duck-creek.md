@@ -1,13 +1,14 @@
 ---
 title: "Welcome to Duck Creek"
 image: "images/adventures/duck-creek.jpg"
+image_position: "center"
 description: "Ein herbstliches Mystery-Abenteuer in den Berkshire Mountains."
 genre: "Mystery, Horror"
 format: "Multi-Shot"
 duration: "8-10 Stunden"
 authors:
   - name: "Johannes Zinnau"
-    url: "mailto: mail.johni@gmx.de"
+    url: "mailto:mail.johni@gmx.de"
     donate: "https://ko-fi.com/johanneszinnau"
 license: "CC BY-NC-ND 4.0"
 license_url: "https://creativecommons.org/licenses/by-nc-nd/4.0/"

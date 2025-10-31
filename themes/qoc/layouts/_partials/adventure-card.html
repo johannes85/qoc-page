@@ -1,8 +1,8 @@
 <article class="col-12 col-md-6 col-lg-4 pb-4">
   <div class="card">
-    {{- with .Params.image }}
-      {{- $image := resources.Get . }}
-      {{- $image := $image.Fill "286x180 center" }}
+    {{- if .Params.image }}
+      {{- $image := resources.Get .Params.image }}
+      {{- $image := $image.Fill (printf "286x180 %s" .Params.image_position) }}
       <img class="card-img-top" src="{{ $image.RelPermalink }}" alt="Card image cap">
     {{- end }}
     <div class="card-body">

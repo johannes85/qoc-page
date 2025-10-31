@@ -1,7 +1,7 @@
 ---
-title: "Schnellstarter Regelwerk"
-link: ""
-linktext: "Schnellstarter version 10.09.2025 (PDF)"
+title: "Schnellstart Regelwerk"
+link: "/downloads/qoc_schnellstart_010425.pdf"
+linktext: "Schnellstart Regelwerk version 01.04.2025 (PDF)"
 build:
   render: "never"
 ---
