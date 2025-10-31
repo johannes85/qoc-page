@@ -1,10 +1,15 @@
 <article class="col-12 col-md-6 col-lg-4 pb-4">
   <div class="card">
-    {{- if .Params.image }}
+    {{- if .Params.image_teaser }}
+      {{- $image := resources.Get .Params.image_teaser }}
+      {{- $image := $image.Fill (printf "286x180 %s" .Params.image_teaser_position) }}
+      <img class="card-img-top" src="{{ $image.RelPermalink }}" alt="Card image cap">
+    {{- else if .Params.image }}
       {{- $image := resources.Get .Params.image }}
-      {{- $image := $image.Fill (printf "286x180 %s" .Params.image_position) }}
+      {{- $image := $image.Fill (printf "286x180 %s" .Params.image_teaser_position) }}
       <img class="card-img-top" src="{{ $image.RelPermalink }}" alt="Card image cap">
     {{- end }}
+
     <div class="card-body">
       <h3 class="card-title">{{ .Title }}</h3>
       <p class="card-text">

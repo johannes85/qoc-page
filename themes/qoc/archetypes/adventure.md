@@ -1,7 +1,8 @@
 ---
 title: ""
+image_teaser: ""
+image_teaser_position: "center"
 image: ""
-image_position: "center"
 description: ""
 genre: "Mystery, Horror"
 format: "Multi-Shot"

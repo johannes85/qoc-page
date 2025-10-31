@@ -1,7 +1,8 @@
 ---
 title: "Daring Business"
-image: "images/adventures/daring-business.png"
-image_position: "top"
+image_teaser: "images/adventures/daring-business.png"
+image_teaser_position: "top"
+image: "images/adventures/daring-business-cover.png"
 description: "Ein ganz normaler Tag. Ein kurzer Stopp in der Bank, ein paar Erledigungen – doch dann fallen Schüsse."
 genre: "Action, Mystery, Sci-Fi"
 format: "Multi-Shot"

@@ -1,7 +1,7 @@
 ---
 title: "Welcome to Duck Creek"
+image_teaser_position: "center"
 image: "images/adventures/duck-creek.jpg"
-image_position: "center"
 description: "Ein herbstliches Mystery-Abenteuer in den Berkshire Mountains."
 genre: "Mystery, Horror"
 format: "Multi-Shot"
