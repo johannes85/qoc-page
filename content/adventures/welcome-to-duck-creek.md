@@ -6,7 +6,7 @@ image: "images/adventures/duck-creek-cover.png"
 description: "Ein herbstliches Mystery-Abenteuer in den Berkshire Mountains."
 genre: "Mystery, Horror"
 format: "Multi-Shot"
-duration: "8-10 Stunden"
+duration: "6-10 Stunden"
 authors:
   - name: "Johannes Zinnau"
     url: "mailto:mail.johni@gmx.de"
