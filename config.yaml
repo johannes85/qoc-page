@@ -3,3 +3,6 @@ title: "Quests of Chaos - Pen & paper RPG"
 theme: "qoc"
 baseURL: "https://quests-of-chaos.com/"
 canonifyURLs: true
+security:
+  allowContent:
+  - '.*'
