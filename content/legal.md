@@ -5,9 +5,9 @@ draft: false
 ---
 # Impressum
 
-Patrick Morgenthaler
-Im Entenbruch 9
-76889 Vorderweidenthal
+Patrick Morgenthaler  
+Im Entenbruch 9  
+76889 Vorderweidenthal  
 Deutschland
 
 E-Mail: mail.pmorgenthaler@gmx.de
