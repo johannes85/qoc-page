@@ -5,10 +5,9 @@ draft: false
 ---
 # Impressum
 
-Max Mustermann  
-Musterstraße 1  
-12345 Musterstadt  
+Patrick Morgenthaler
+Im Entenbruch 9
+76889 Vorderweidenthal
 Deutschland
 
-E-Mail: adventure@quests-of-chaos.com  
-Telefon: +49 123 456789
+E-Mail: mail.pmorgenthaler@gmx.de
