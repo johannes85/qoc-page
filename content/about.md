@@ -6,44 +6,34 @@ menu: main
 weight: 10
 ---
 
-{{< image src="images/zombies_1.png" alt="Postapokalyptische Stadt-Szene mit Zombies" >}}
+{{< image src="images/heroes.png" alt="Quest of Chaos Archetypen Beispiel" >}}
 
 # Über Quests of Chaos
 
-Quests of Chaos ist ein Regelwerk welches universell eingesetzt werden kann, 
-um in verschiedenen Settings und Genre zu funktionieren. 
-Es hat auch klar definierte, knappe Regeln und bietet Spaß für Rollenspielprofis und Anfänger. 
-Das Kampfsystem bietet rasante Aktion ohne sich unnötig in komplizierten Würfelorgien zu verlieren. 
-Es kann für lange Abenteuerkampagnen oder sogenannte One Shot Abenteuer genutzt werden.
+Quests of Chaos ist ein universelles W20 Regelwerk, das nicht an ein bestimmtes Setting oder Genre gebunden ist. Die Regeln sind bewusst überschaubar gehalten und sollen sowohl für erfahrene Rollenspieler als auch für Einsteiger schnell verständlich sein.
 
-Die Regeln können natürlich nach belieben angepasst werden, 
-um eure eigenen Spielstile und Vorlieben zu berücksichtigen.
+Das Kampfsystem setzt auf schnelle Aktionen und einfache Abläufe, ohne dass für jeden Schlag erst eine Handvoll Würfel und Tabellen bemüht werden müssen. Quests of Chaos kann dabei genauso für einen kurzen One Shot wie für eine längere Kampagne verwendet werden.
 
-Denn das Herzstück eines jeden Pen and Paper Spiels sind letztendlich die Spieler selbst – ihre Ideen, 
-ihre Entscheidungen und ihre Interaktionen mit der Welt und den Charakteren um sie herum.
-In Anbetracht der Vielfalt und Kreativität, die Pen and Paper Rollenspiele bieten, 
-kann man wirklich sagen, dass die Möglichkeiten grenzenlos sind.
+Dabei verstehen wir die Regeln nicht als in Stein gemeißelt. Wenn etwas für eure Runde anders besser funktioniert, dann ändert es. Das Regelwerk soll das Spiel unterstützen und nicht im Weg stehen.
 
-Egal, ob man in eine fantastische Welt voller Magie und Abenteuer eintauchen möchte oder
-lieber in einem dystopischen Zukunftsszenario kämpft, Pen and Paper bietet jedem Spieler die Möglichkeit, 
-seine eigene Geschichte zu erzählen und seine eigenen Entscheidungen zu treffen.
+Im Mittelpunkt stehen die Charaktere und das, was die Spieler mit ihnen machen. Ihre Entscheidungen, Erfolge und Fehler bestimmen, wie sich eine Geschichte entwickelt. Nicht für jede Situation braucht es deshalb eine eigene Regel. Manchmal reicht eine gute Idee, eine passende Probe und die Bereitschaft, mit den Konsequenzen zu leben.
 
-Also schnappt euch eure Würfel, eure Charakterbögen und Freunde und begebt euch auf eine Reise voller Gefahr und Abenteuer. 
-Die Welt liegt euch zu Füßen und eure Möglichkeiten sind unbegrenzt. 
-Also wagt es die Grenzen eurer Vorstellungskraft zu sprengen.
+Ob Fantasy, Science Fiction, Horror, Endzeit oder ein völlig eigenes Szenario, Quests of Chaos liefert den Rahmen und überlässt euch, was ihr daraus macht.
+
+## Die Chaos-Skala
+
+Eine Besonderheit von Quests of Chaos ist die Chaos-Skala. Sie sorgt dafür, dass der Einsatz von Glück nicht ohne Folgen bleibt. Wer das Schicksal zu seinen Gunsten beeinflusst, bringt gleichzeitig mehr Chaos ins Spiel.
+
+Die Skala kann aber auch wieder sinken. Wer zum Beispiel einen Patzer akzeptiert und mit dessen Konsequenzen lebt, kann das entstandene Chaos wieder ein Stück weit ausgleichen.
+
+Steigt oder fällt die Skala weit genug, kann sich das angesammelte Chaos entladen. Was dann passiert, muss nicht zwangsläufig schlecht sein. Chaos kann der Gruppe helfen, ihr neue Probleme bescheren oder die Situation auf eine Weise verändern, mit der vorher niemand gerechnet hat.
 
 ## Die Welt
 
-Quets of Chaos ist zwar ein Regelwerk das universell eingesetzt werden kann, 
-dennoch gibt es eine eigene Welt bzw. eine Insel mit dem Namen **Cthula Lumpor**, 
-die das Herzstück von Quests of Chaos bildet und auf der die meisten Abenteuer angesiedelt sind. 
+Quests of Chaos funktioniert unabhängig von einer bestimmten Spielwelt. Trotzdem hat das Regelwerk mit **Cthula Lumpor** eine eigene Heimat. Die fiktive Insel bildet den Schauplatz vieler unserer Abenteuer und gibt uns einen Ort, an dem wir ziemlich unterschiedliche Geschichten unterbringen können.
 
-Wir befinden uns in der Neuzeit. 
-Das heißt, das der technologische Fortschritt und alles was es sonst noch in Cthula Lumpor gibt, 
-diesem Stand der Zeit entspricht. 
-Die Mondlandung, der Mauerfall und das düstere Mittelalter sind den Bewohnern Cthula Lumpors genauso bekannt wie dir.
-Wir gehen also davon aus, das wir uns auf der Erde des 21. Jahrhunderts befinden, 
-auf einer Insel die ausschließlich zum Zwecke der Abenteuer erdacht wurde. 
+Grundsätzlich befindet sich Cthula Lumpor in unserer heutigen Welt. Die Bewohner kennen dieselben historischen Ereignisse, technischen Entwicklungen und gesellschaftlichen Veränderungen wie wir. Mondlandung, Mittelalter und Mauerfall gehören dort genauso zur Geschichte wie im Rest der Welt.
 
-Dennoch ist in Quests of Chaos vieles Möglich. Zeitreisen, Science Fiction, Übernatürliches, 
-Mutanten und sogar prähistorische Geschöpfe finden in den [Abenteuern](/adventures/) Platz. 
+Das bedeutet allerdings nicht, dass auf Cthula Lumpor immer alles mit rechten Dingen zugeht. Je nach [Abenteuer](/adventures/) können Übernatürliches, Zeitreisen, Science Fiction, Mutanten oder sogar prähistorische Kreaturen auftauchen. Die Insel gibt uns dabei die Freiheit, mit verschiedenen Genres und Ideen zu spielen, ohne für jedes [Abenteuer](/adventures/) eine komplett neue Welt erfinden zu müssen.
+
+**Kurz gesagt:** Cthula Lumpor ist ein Teil unserer Welt. Nur einer, auf dem deutlich mehr seltsame Dinge passieren.

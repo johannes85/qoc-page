@@ -2,19 +2,18 @@
 @import "bootstrap/scss/functions";
 
 // Customize some defaults
-$body-color: #ccced4;
-$body-bg: #2b2d30;
+$body-color-dark: #e8eaf1;
+$body-bg-dark: #11131B;
 $border-radius: .4rem;
-$link-color: $body-color;
-$card-border-color: #6a6a70;
+$link-color-dark: $body-color-dark;
+$link-hover-color-dark: #FFF;
 
-$primary: #ccced4;
+$primary: #e8eaf1;
 $secondary: #474c50;
 $danger: #6c1310;
 
-// Required
 @import "bootstrap/scss/variables";
-// @import "bootstrap/scss/variables-dark";
+@import "bootstrap/scss/variables-dark";
 
 $theme-colors: (
   "primary":    $primary,
@@ -151,15 +150,15 @@ footer {
   background: #b4b6bc;
   line-height: 2.5rem;
   font-size: .8rem;
-  color: $body-bg;
+  color: $body-bg-dark;
 
   a {
-    color: $body-bg;
+    color: $body-bg-dark;
     text-decoration: none;
 
     &:hover,
     &:focus {
-      color: darken($body-bg, 10%);
+      color: darken($body-bg-dark, 10%);
       text-decoration: underline;
     }
   }
@@ -197,6 +196,10 @@ footer {
       color: var(--bs-link-hover-color-rgb);
     }
   }
+}
+
+.alert-primary {
+  border-color: var(--bs-border-color-translucent);
 }
 
 @import "vanilla-cookieconsent/dist/cookieconsent";
