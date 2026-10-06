@@ -3,4 +3,4 @@ themes/qoc/assets/generated/*
 /node_modules
 /public
 /resources
-*~lock~
+~lock~
