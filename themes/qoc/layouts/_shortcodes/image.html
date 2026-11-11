@@ -1,11 +1,32 @@
 {{- $src := .Get "src" }}
 {{- $alt := .Get "alt" }}
-{{- $width := .Get "width" }}
-{{- $image := resources.Get $src }}
-{{- $image := $image.Resize "480x" }}
+{{- $width := .Get "width" | default "480" }}
+{{- $linkWidth := .Get "linkWidth" }}
+{{- $alignment := .Get "align" | default "right" }}
+{{- $pb := .Get "pb" | default "3" }}
+{{- $pt := .Get "pt" | default "0" }}
+{{- $floatClass := "pb-lg-0 ps-lg-3 float-lg-end" }}
+{{- if eq $alignment "left" }}
+  {{- $floatClass = "pb-lg-0 pe-lg-3 float-lg-start" }}
+{{- end }}
+{{- if eq $alignment "none" }}
+  {{- $floatClass = "" }}
+{{- end }}
+{{- if eq $alignment "center" }}
+  {{- $floatClass = "d-block mx-auto" }}
+{{- end }}
+{{- $original := resources.Get $src }}
+{{- $image := $original.Resize (printf "%sx" $width) }}
+{{- if $linkWidth }}
+  {{- $linkImage := $original.Resize (printf "%sx" $linkWidth) }}
+  <a href="{{ $linkImage.RelPermalink }}" target="_blank">
+{{- end }}
 <img
   src="{{ $image.RelPermalink }}"
-  class="pb-3 pb-lg-0 ps-lg-3 float-lg-end img-fluid"
+  class="pt-{{ $pt }} pb-{{ $pb }} {{ $floatClass }} img-fluid"
   width="{{ $image.Width }}"
   alt="{{ $alt }}"
 >
+{{- if $linkWidth }}
+  </a>
+{{- end }}
