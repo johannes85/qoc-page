@@ -24,8 +24,6 @@ Ob Fantasy, Science Fiction, Horror, Endzeit oder ein völlig eigenes Szenario, 
 
 Eine Besonderheit von Quests of Chaos ist die Chaos-Skala. Sie sorgt dafür, dass der Einsatz von Glück nicht ohne Folgen bleibt. Wer das Schicksal zu seinen Gunsten beeinflusst, bringt gleichzeitig mehr Chaos ins Spiel.
 
-
-
 Die Skala kann aber auch wieder sinken. Wer zum Beispiel einen Patzer akzeptiert und mit dessen Konsequenzen lebt, kann das entstandene Chaos wieder ein Stück weit ausgleichen.
 
 Steigt oder fällt die Skala weit genug, kann sich das angesammelte Chaos entladen. Was dann passiert, muss nicht zwangsläufig schlecht sein. Chaos kann der Gruppe helfen, ihr neue Probleme bescheren oder die Situation auf eine Weise verändern, mit der vorher niemand gerechnet hat.

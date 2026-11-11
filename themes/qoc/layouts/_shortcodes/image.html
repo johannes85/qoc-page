@@ -19,7 +19,7 @@
 {{- $image := $original.Resize (printf "%sx" $width) }}
 {{- if $linkWidth }}
   {{- $linkImage := $original.Resize (printf "%sx" $linkWidth) }}
-  <a href="{{ $linkImage.RelPermalink }}" target="_blank">
+  <a href="{{ $linkImage.RelPermalink }}" class="glightbox">
 {{- end }}
 <img
   src="{{ $image.RelPermalink }}"

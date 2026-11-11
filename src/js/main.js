@@ -1,5 +1,7 @@
 
 import * as CookieConsent from "vanilla-cookieconsent";
+import GLightbox from "glightbox";
+import "glightbox/dist/css/glightbox.css";
 
 /**
  * All config. options available here:
@@ -104,3 +106,5 @@ CookieConsent.run({
     }
   }
 });
+
+GLightbox({ selector: ".glightbox" });
