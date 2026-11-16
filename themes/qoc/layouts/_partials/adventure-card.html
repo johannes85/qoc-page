@@ -1,26 +1,26 @@
 <article class="col-12 col-md-6 col-lg-4 pb-4">
-  <div class="card">
+  <div class="card h-100">
     {{- if .Params.image_teaser }}
       {{- $image := resources.Get .Params.image_teaser }}
-      {{- $image := $image.Fill (printf "286x180 %s" .Params.image_teaser_position) }}
+      {{- $image := $image.Fill (printf "407x256 %s" .Params.image_teaser_position) }}
       <img class="card-img-top" src="{{ $image.RelPermalink }}" alt="Card image cap">
     {{- else if .Params.image }}
       {{- $image := resources.Get .Params.image }}
-      {{- $image := $image.Fill (printf "286x180 %s" .Params.image_teaser_position) }}
+      {{- $image := $image.Fill (printf "407x256 %s" .Params.image_teaser_position) }}
       <img class="card-img-top" src="{{ $image.RelPermalink }}" alt="Card image cap">
     {{- end }}
 
-    <div class="card-body">
+    <div class="card-body d-flex flex-column">
       <h3 class="card-title">{{ .Title }}</h3>
       <p class="card-text">
         {{ .Params.description }}
       </p>
-      <p class="card-text">
+      <p class="card-text mt-auto">
         <b>Genre:</b> {{ .Params.genre }}<br>
         <b>Format:</b> {{ .Params.format }} ({{ .Params.duration }})<br>
         <b>{{ if gt (len .Params.authors) 1 }}Autoren{{ else }}Autor{{ end }}:</b> {{ range $k, $v := .Params.authors }}{{ if $k }}, {{ end }}{{ $v.name }}{{ end }}
       </p>
-      <a href="{{.Permalink}}" class="btn btn-sm btn-primary">Weitere Informationen</a>
+      <a href="{{.Permalink}}" class="btn btn-sm btn-primary ">Weitere Informationen</a>
     </div>
   </div>
 </article>

@@ -11,6 +11,9 @@
 {{- end }}
 
 <h1>{{ .Title }}</h1>
+{{- if .Params.book }}
+<p>{{ .Params.book }}</p>
+{{- end }}
 
 <p>
   <b>Genre:</b> {{ .Params.genre }}<br>
@@ -33,7 +36,11 @@
     <a href="{{ .Params.link }}" class="btn btn-primary">Kaufen</a>
     {{- end }}
   {{- else }}
+    {{- if eq .Params.free true }}
     <button disabled href="{{ .Params.link }}" class="btn btn-primary">Download bald verfügbar</button>
+    {{- else }}
+    <button disabled href="{{ .Params.link }}" class="btn btn-primary">Bald verfügbar</button>
+    {{- end }}
   {{- end }}
 
   {{- range .Params.authors }}

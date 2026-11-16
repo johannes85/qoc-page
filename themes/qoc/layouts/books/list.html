@@ -1,0 +1,11 @@
+{{- define "main" }}
+<h1>{{ .Title }}</h1>
+
+<div class="row">
+{{- $pages := where .Data.Pages ".Params.free" false }}
+{{- range $pages.ByParam "order" }}
+   {{ partial "book-card.html" . }}
+{{ end }}
+</div>
+
+{{- end }}

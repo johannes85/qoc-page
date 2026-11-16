@@ -7,15 +7,12 @@ description: "Ein ganz normaler Tag. Ein kurzer Stopp in der Bank, ein paar Erle
 genre: "Action, Mystery, Sci-Fi"
 format: "Multi-Shot"
 duration: "6-10 Stunden"
+book: "49 Seiten, A5 Softcover Buch"
 authors:
   - name: "Patrick Morgenthaler"
     url: "mailto:pmorgenthaler@web.de"
-    donate: "https://paypal.me/PatMor549"
-license: "CC BY-NC-ND 4.0"
-license_url: "https://creativecommons.org/licenses/by-nc-nd/4.0/"
 draft: false
-free: true
-link: "/downloads/qoc_daring_business_311025.pdf"
+free: false
 ---
 Ein ganz normaler Tag. Ein kurzer Stopp in der Bank, ein paar Erledigungen – doch dann fallen Schüsse.
 Was als Routine begann, endet in einem blutigen Überfall, einer Flucht und einem Netz aus Lügen, Gewalt und Verschwörungen.

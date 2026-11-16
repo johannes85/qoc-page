@@ -1,6 +1,13 @@
 {{- define "main" }}
 <h1>{{ .Title }}</h1>
 
+<h2>Unsere Abenteuer-Bücher</h2>
+<div class="row">
+{{- range where .Data.Pages ".Params.free" false }}
+   {{ partial "adventure-card.html" . }}
+{{ end }}
+</div>
+
 <h2>Unsere kostenlosen Pen & Paper Abenteuer zum herunterladen</h2>
 <div class="row">
 {{- range where .Data.Pages ".Params.free" true }}
