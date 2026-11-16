@@ -1,9 +1,9 @@
 ---
 title: "Trailer Bash"
-image_teaser: "images/adventures/placeholder.png"
+image_teaser: "images/adventures/trailer-bash.png"
 image_teaser_position: "top"
-image: ""
-description: "Weitere Informationen folgen"
+image: "images/adventures/trailer-bash-cover.png"
+description: "Eine abgedrehte Trailer-Park-Komödie voller Mystery- und Sci-Fi-Elemente, angesiedelt im Mai 1993."
 genre: "Sci-Fi, Trash"
 format: "One-Shot"
 duration: "5-8 Stunden"
@@ -14,4 +14,9 @@ authors:
 draft: false
 free: false
 ---
-Weitere Informationen folgen
+Eine abgedrehte Trailer-Park-Komödie voller Mystery- und Sci-Fi-Elemente, angesiedelt im Mai 1993.
+
+Schlüpft in die Rolle der neuen Park-Security im heruntergekommenen Backwoods Belly Trailer Park.
+Ermittelt im alltäglichen Chaos zwischen exzentrischen Nachbarn, dubiosen Machenschaften und merkwürdigen Vorkommnissen.
+
+Deckt das dunkle Geheimnis auf, das hinter den Kulissen des Parks lauert, bevor die Situation völlig aus dem Ruder läuft!

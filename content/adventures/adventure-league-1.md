@@ -16,8 +16,8 @@ free: false
 ---
 ## Das Königreich des Krokodilauges
 
-Der berühmte Archäologe Dr. Tydarius Finkelstein ist irgendwo im Dschungel verschwunden. Seit Jahren ist er auf der Suche nach der geheimnisvollen Stadt Ember, von der er glaubt, das sie von Auserirdischen erbaut wurde und tief im Dschungel verborgen liegt, bewacht von Ureinwohnern und der Macht des Krokodilauges. Eine alte Legende besagt, dass das Krokodilauge der Schlüssel zu unendlichem Wissen sei.
+Im Jahr 1911 führt euch eine gefahrvolle Expedition auf die geheimnisvolle Insel Mana Tuku (später bekannt als Cthula Lumpor). Der exzentrische Archäologe Dr. Tydarius Finkelstein ist auf der Suche nach der sagenumwobenen, angeblich von Außerirdischen erbauten Stadt Ember spurlos verschwunden.
 
-Ein Brief erreichte kürzlich einen alten Freund von Dr. T. Finkelstein, indem er ihn bat, eine Expedition zusammen zu stellen und ihn bei der Suche nach der geheimnisvollen Stadt zu unterstützen. Nicht gerade mit Freude begibt sich nun der Freund auf eine lange Reise voller Ungewissheit.
+Macht euch bereit für ein packendes Pulp-Abenteuer.
 
-Erstelle dir einen Abenteurer und hilf dabei die Geheimnisse um Ember aufzudecken, falls diese Stadt überhaupt existiert und es sich am Ende nicht schon wieder als eine heiße Spur entpuppt die im Sand verläuft.
+Stellt euch den Gefahren des Unbekannten und findet heraus, was wirklich hinter dem Mythos von Ember steckt!
