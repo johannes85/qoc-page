@@ -1,6 +1,6 @@
 ---
 title: "Impressum"
-date: 2025-09-10T19:09:36+02:00
+date: 2026-11-16T12:12:43.906Z
 draft: false
 ---
 # Impressum
