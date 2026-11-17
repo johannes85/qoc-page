@@ -13,6 +13,7 @@ authors:
     url: "mailto:pmorgenthaler@web.de"
 draft: false
 free: false
+link: "https://hobbyshed.de/Pen-Paper/Adventure-League-Teil-1-Abenteuer-fuer-Quests-of-Chaos::15.html"
 ---
 ## Das Königreich des Krokodilauges
 

@@ -13,6 +13,7 @@ authors:
     url: "mailto:mail.johni@gmx.de"
 draft: false
 free: false
+link: "https://hobbyshed.de/Pen-Paper/Welcome-to-Duck-Creek-Abenteuer-fuer-Quests-of-Chaos::19.html"
 ---
 Es ist ein schöner Herbsttag im Jahre 1998. Ihr befindet euch im Familien-Van der Familie Phillips, dessen Sohn Ryker euch vom Flughafen in Albany, New York abgeholt hat.
 

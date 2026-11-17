@@ -8,6 +8,7 @@ book: "251 Seiten, Softcover Buch"
 draft: false
 free: false
 order: 1
+link: "https://hobbyshed.de/Pen-Paper/Grundregelwerk-Quests-of-Chaos::13.html"
 ---
 
 Du willst leicht zugängliche Regeln? Ein rasantes Würfelsystem, welches Würfelorgien vermeidet und somit actionreiche Kämpfe bietet? Du willst ein Regelwerk, das gutes Storytelling in den Vordergrund stellt und universell einsetzbar ist, um so in den verschiedensten Settings zu funktionieren?

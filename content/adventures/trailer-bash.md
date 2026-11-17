@@ -13,6 +13,7 @@ authors:
     url: "mailto:pmorgenthaler@web.de"
 draft: false
 free: false
+link: "https://hobbyshed.de/Pen-Paper/Trailer-Bash-Abenteuer-fuer-Quests-of-Chaos::18.html"
 ---
 Eine abgedrehte Trailer-Park-Komödie voller Mystery- und Sci-Fi-Elemente, angesiedelt im Mai 1993.
 

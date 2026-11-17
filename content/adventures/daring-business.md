@@ -13,6 +13,7 @@ authors:
     url: "mailto:pmorgenthaler@web.de"
 draft: false
 free: false
+link: "https://hobbyshed.de/Pen-Paper/Daring-Business-Abenteuer-fuer-Quests-of-Chaos::17.html"
 ---
 Ein scheinbar alltäglicher Moment eskaliert in ein rasantes Netz aus Gefahr, dunklen Geheimnissen und finsteren Verschwörungen.
 

@@ -24,9 +24,9 @@
 
   {{- if .Params.link }}
     {{- if eq .Params.free true }}
-    <a href="{{ .Params.link }}" class="btn btn-primary" data-umami-event="DownloadBook" data-umami-event-file="{{ .Title }}">Herunterladen</a>
+    <a href="{{ .Params.link }}" target="_blank" class="btn btn-primary" data-umami-event="DownloadBook" data-umami-event-file="{{ .Title }}">Herunterladen</a>
     {{- else }}
-    <a href="{{ .Params.link }}" class="btn btn-primary" data-umami-event="BuyBook" data-umami-event-file="{{ .Title }}">Kaufen</a>
+    <a href="{{ .Params.link }}" target="_blank" class="btn btn-primary" data-umami-event="BuyBook" data-umami-event-file="{{ .Title }}">Kaufen</a>
     {{- end }}
   {{- else }}
     {{- if eq .Params.free true }}

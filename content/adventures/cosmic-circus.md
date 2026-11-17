@@ -13,6 +13,7 @@ authors:
     url: "mailto:mail.johni@gmx.de"
 draft: false
 free: false
+link: "https://hobbyshed.de/Pen-Paper/Cosmic-Circus-Abenteuer-fuer-Quests-of-Chaos::16.html"
 ---
 Im Jahre 1985 verschlägt ein gemeinsamer Auftraggeber unsere Helden in Franks Corner, eine heruntergekommene Biker-Kneipe, gelegen am Highway 93 in Nevada.
 
