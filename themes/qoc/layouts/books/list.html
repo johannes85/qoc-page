@@ -2,7 +2,7 @@
 <h1>{{ .Title }}</h1>
 
 <div class="row">
-{{- $pages := where .Data.Pages ".Params.free" false }}
+{{- $pages := .Data.Pages }}
 {{- range $pages.ByParam "order" }}
    {{ partial "book-card.html" . }}
 {{ end }}

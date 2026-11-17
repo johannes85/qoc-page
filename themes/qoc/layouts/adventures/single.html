@@ -31,9 +31,9 @@
 
   {{- if .Params.link }}
     {{- if eq .Params.free true }}
-    <a href="{{ .Params.link }}" class="btn btn-primary">Herunterladen</a>
+    <a href="{{ .Params.link }}" class="btn btn-primary" data-umami-event="DownloadAdventure" data-umami-event-file="{{ .Title }}">Herunterladen</a>
     {{- else }}
-    <a href="{{ .Params.link }}" class="btn btn-primary">Kaufen</a>
+    <a href="{{ .Params.link }}" class="btn btn-primary" data-umami-event="BuyAdventure" data-umami-event-file="{{ .Title }}">Kaufen</a>
     {{- end }}
   {{- else }}
     {{- if eq .Params.free true }}

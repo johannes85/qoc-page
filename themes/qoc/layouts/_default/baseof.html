@@ -21,6 +21,7 @@
   <meta name="apple-mobile-web-app-title" content="QoC"/>
   <link rel="manifest" href="/favicon/site.webmanifest"/>
 
+  {{- if hugo.IsProduction }}
   <script type="text/plain" data-category="analytics" async src="https://www.googletagmanager.com/gtag/js?id=G-D2BW2DRJR1"></script>
   <script type="text/plain" data-category="analytics">
     window.dataLayer = window.dataLayer || [];
@@ -29,6 +30,8 @@
 
     gtag('config', 'G-D2BW2DRJR1');
   </script>
+  <script defer src="https://johnimedia.de/t/script.js" data-website-id="8224701f-454a-4c75-95fa-dce064e25c99"></script>
+  {{- end }}
 </head>
 <body style="background-image: url('/images/bg_mist.jpg')">
 
@@ -78,7 +81,7 @@
 <footer class="fixed-bottom">
   <div class="container px-2 d-flex justify-content-between gap-3">
     <div>
-      <a href="https://discord.com/invite/tbcMtscadA" title="Trete unserer Discord-Community bei">
+      <a href="https://discord.com/invite/tbcMtscadA" title="Trete unserer Discord-Community bei" data-umami-event="JoinDiscord">
         <svg class="bi" width="24" height="24" fill="currentColor">
           <use xlink:href="/images/bootstrap-icons.svg#discord"/>
         </svg>

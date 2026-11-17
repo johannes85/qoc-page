@@ -7,7 +7,7 @@
       </div>
       <div class="d-flex flex-column mt-auto">
         {{- if .Params.link }}
-          <a href="{{ .Params.link }}" class="btn btn-sm btn-primary">{{ .Params.linktext }}</a>
+          <a href="{{ .Params.link }}" class="btn btn-sm btn-primary" data-umami-event="Download" data-umami-event-file="{{ .Title }}">{{ .Params.linktext }}</a>
         {{- else }}
           <button disabled class="btn btn-sm btn-primary">Download bald verfügbar</button>
         {{- end }}
