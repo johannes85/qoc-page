@@ -11,11 +11,14 @@
 {{- end }}
 
 <h1>{{ .Title }}</h1>
+
+<div class="mb-4">
+  {{ .Content }}
+</div>
+
 {{- if .Params.book }}
 <p>{{ .Params.book }}</p>
 {{- end }}
-
-{{ .Content }}
 
 <div class="mt-3 d-flex gap-2 align-items-start">
 
