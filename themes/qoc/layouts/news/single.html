@@ -1,0 +1,51 @@
+{{- define "main" }}
+<article class="news-single">
+  <div class="mb-4">
+    <h1>{{ .Title }}</h1>
+    <div class="text-muted">
+      <small>
+        Veröffentlicht am {{ .Date.Format "02. January 2006" }}
+      </small>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-body">
+      <div class="news-content">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+
+  <div class="news-navigation mt-4 mb-4">
+    <nav class="d-flex justify-content-between gap-3">
+      {{- if .PrevInSection }}
+        <a href="{{ .PrevInSection.Permalink }}" class="d-flex align-items-center gap-2">
+          <svg class="bi" width="16" height="16" fill="currentColor">
+            <use xlink:href="/images/bootstrap-icons.svg#arrow-left"/>
+          </svg>
+          <span>{{ .PrevInSection.Title }}</span>
+        </a>
+      {{- else }}
+        <div></div>
+      {{- end }}
+      
+      {{- if .NextInSection }}
+        <div class="text-end">
+          <a href="{{ .NextInSection.Permalink }}" class="d-flex align-items-center gap-2 justify-content-end">
+            <span>{{ .NextInSection.Title }}</span>
+            <svg class="bi" width="16" height="16" fill="currentColor">
+              <use xlink:href="/images/bootstrap-icons.svg#arrow-right"/>
+            </svg>
+          </a>
+        </div>
+      {{- end }}
+    </nav>
+  </div>
+
+  <a href="{{ .Section | relURL }}" class="btn btn-primary">
+    Zurück zu News
+  </a>
+</article>
+
+{{- end }}

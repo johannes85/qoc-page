@@ -8,6 +8,10 @@ $border-radius: .4rem;
 $link-color-dark: $body-color-dark;
 $link-hover-color-dark: #FFF;
 
+
+$pagination-active-bg: #FFF;
+$pagination-active-color: $body-bg-dark;
+
 $primary: #e8eaf1;
 $secondary: #474c50;
 $danger: #6c1310;
@@ -200,6 +204,44 @@ footer {
 
 .alert-primary {
   border-color: var(--bs-border-color-translucent);
+}
+
+// News Styles
+.news-list {
+  .card {
+    .card-title {
+      font-size: 1.25rem;
+      margin-bottom: 0rem;
+    }
+  }
+
+  .card-header-custom {
+    border-bottom: 1px solid $card-border-color;
+    padding-bottom: 0.75rem;
+  }
+}
+
+.news-single {
+  h1 {
+    margin-bottom: 0.25rem;
+  }
+
+  .news-navigation {
+    a {
+      color: $primary;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .news-content {
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
 }
 
 @import "vanilla-cookieconsent/dist/cookieconsent";

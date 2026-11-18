@@ -1,0 +1,100 @@
+{{- define "main" }}
+<h1>{{ .Title }}</h1>
+
+<div class="news-list">
+  {{- $paginator := .Paginate (.Data.Pages) 6 }}
+  
+  {{- if $paginator.Pages }}
+    <div class="row">
+      {{- range $paginator.Pages }}
+        {{ partial "news-card.html" . }}
+      {{- end }}
+    </div>
+
+    {{- if gt $paginator.TotalPages 1 }}
+    <nav aria-label="Pagination Navigation" class="mt-5">
+      <ul class="pagination justify-content-center">
+        {{- if $paginator.HasPrev }}
+          <li class="page-item">
+            <a class="page-link" href="{{ $paginator.First.URL }}">Erste</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="{{ $paginator.Prev.URL }}">
+              Neuere News
+            </a>
+          </li>
+        {{- else }}
+          <li class="page-item disabled">
+            <span class="page-link">Erste</span>
+          </li>
+          <li class="page-item disabled">
+            <span class="page-link">
+              Neuere News
+            </span>
+          </li>
+        {{- end }}
+
+        {{- $ellipsisStart := false }}
+        {{- $ellipsisEnd := false }}
+        {{- range $index, $page := $paginator.Pagers }}
+          {{- if eq $paginator.PageNumber $page.PageNumber }}
+            <li class="page-item active">
+              <span class="page-link">
+                {{ $page.PageNumber }}
+                <span class="visually-hidden">(aktuelle Seite)</span>
+              </span>
+            </li>
+            {{- $ellipsisStart = false }}
+            {{- $ellipsisEnd = false }}
+          {{- else if or (lt $page.PageNumber (sub $paginator.PageNumber 2)) (gt $page.PageNumber (add $paginator.PageNumber 2)) }}
+            {{- if and (gt $page.PageNumber (sub $paginator.PageNumber 2)) (not $ellipsisStart) }}
+              <li class="page-item disabled">
+                <span class="page-link">...</span>
+              </li>
+              {{- $ellipsisStart = true }}
+            {{- end }}
+            {{- if and (lt $page.PageNumber (add $paginator.PageNumber 2)) (not $ellipsisEnd) }}
+              <li class="page-item disabled">
+                <span class="page-link">...</span>
+              </li>
+              {{- $ellipsisEnd = true }}
+            {{- end }}
+          {{- else }}
+            <li class="page-item">
+              <a class="page-link" href="{{ $page.URL }}">{{ $page.PageNumber }}</a>
+            </li>
+            {{- $ellipsisStart = false }}
+            {{- $ellipsisEnd = false }}
+          {{- end }}
+        {{- end }}
+
+        {{- if $paginator.HasNext }}
+          <li class="page-item">
+            <a class="page-link" href="{{ $paginator.Next.URL }}">
+              Ältere News
+            </a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="{{ $paginator.Last.URL }}">Letzte</a>
+          </li>
+        {{- else }}
+          <li class="page-item disabled">
+            <span class="page-link">
+              Ältere News
+            </span>
+          </li>
+          <li class="page-item disabled">
+            <span class="page-link">Letzte</span>
+          </li>
+        {{- end }}
+      </ul>
+    </nav>
+    {{- end }}
+  {{- else }}
+    <div class="alert alert-info">
+      <p>Noch keine News vorhanden.</p>
+    </div>
+  {{- end }}
+</div>
+
+{{- end }}
